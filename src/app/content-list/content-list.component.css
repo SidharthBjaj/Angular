@@ -1,0 +1,14 @@
+.search input {
+    font-size: 20px;
+    width: 80%;
+}
+
+button {
+    padding: 8px;
+}
+.windsor {
+    border-color: mediumblue;
+}
+.school {
+    border-color: greenyellow;
+}

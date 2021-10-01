@@ -10,51 +10,56 @@ export class ContentListComponent implements OnInit {
   contentList: Content[] = [];
   constructor() { }
 
+  searchTitle(search:String):void{
+    let exist = this.contentList.find(content => content.title.toLowerCase() == search.toLowerCase());
+    alert(exist ? `${search} exist!` : `${search} does not exist!`);
+  }
+
   ngOnInit(): void {
     this.contentList = [
       {
         id: 1,
         author: 'Sidharth',
-        title: 'Angular Assignment 2 first title',
+        title: 'first',
         body: 'This is body of content in first array',
         tags: ['Windsor','St. Clair'],
-        imgUrl: 'https://images.app.goo.gl/LGndGB4ciQXgvwZm8.jpg',
-        type: 'update 1'
+        imgUrl: 'https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_960_720.jpg',
+        type: 'school'
       }, {
         id: 2,
         author: 'Sidharth',
-        title: 'Angular Assignment 2 second title',
+        title: 'second',
         body: 'This is body of content in second array',
         imgUrl: 'https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_960_720.jpg',
         tags: ['Windsor','St. Clair'],
-        type: 'update 2'
+        type: 'windsor'
       },
       {
         id: 3,
         author: 'Sidharth',
-        title: 'Angular Assignment 2 third title',
+        title: 'third',
         body: 'This is body of content in third array',
         imgUrl: 'https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_960_720.jpg',
         tags: ['Windsor','St. Clair'],
-        type: 'update 3'
+        type: 'windsor'
       },
       {
         id: 4,
         author: 'Sidharth',
-        title: 'Angular Assignment 2 forth title',
+        title: 'fourth',
         body: 'This is body of content in forth array',
         imgUrl: 'https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_960_720.jpg',
         tags: ['Windsor','St. Clair'],
-        type: 'update 4'
+        type: 'windsor'
       },
       {
         id: 5,
         author: 'Sidharth',
-        title: 'Angular Assignment 2 fifth title',
+        title: 'fifth',
         body: 'This is body of content in fifth array',
         imgUrl: 'https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_960_720.jpg',
         tags: ['Windsor','St. Clair'],
-        type: 'update 5'
+        type: 'school'
       },
 
     ];
