@@ -39,7 +39,7 @@ export class ContentListComponent implements OnInit {
         author: 'Sidharth',
         title: 'third',
         body: 'This is body of content in third array',
-        imgUrl: 'https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_960_720.jpg',
+        // imgUrl: 'https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_960_720.jpg',
         tags: ['Windsor','St. Clair'],
         type: 'windsor'
       },
