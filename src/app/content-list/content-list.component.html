@@ -1,3 +1,5 @@
+<app-create-content (newContents)="addInfoToList($event)"></app-create-content>
+
 <div class="search">
     <input #search placeholder="Search">
     <button (click)="searchTitle(search.value)">Search</button>

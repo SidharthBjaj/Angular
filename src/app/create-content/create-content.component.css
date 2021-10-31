@@ -1,0 +1,12 @@
+div.form {
+    padding: 20px;
+    margin: 0 auto;
+    display: inline-block;
+}
+.btn-success{
+    margin: 10px;
+    width: 50%;
+    text-align: center;
+    color: black;
+    background-color: dodgerblue;
+}
