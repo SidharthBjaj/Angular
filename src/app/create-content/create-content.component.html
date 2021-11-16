@@ -1,6 +1,9 @@
 <div class="form">
     <h1>Add Information Here</h1>
     <div class="form-group">
+        <input #id class="form-control" id="id" name="id" placeholder="*Enter id" value="0" required />
+    </div>
+    <div class="form-group">
         <input #title class="form-control" id="title" name="title" placeholder="*Please enter title here" required />
     </div>
     <div class="form-group">
@@ -19,8 +22,9 @@
         <input #tags class="form-control" id="tags" name="tags" placeholder="Enter tags"  />
     </div>
 
-    <div (click)="AddNews(title.value,body.value,author.value)"
-         class="btn btn-success">Add News</div>
+
+            <button (click)="AddNews(title.value,body.value,author.value,imgUrl.value,type.value,tags.value)"
+                    class="btn btn-success">Add News</button>
     <button (click)="onUpdateValue(title.value,body.value,author.value,imgUrl.value,type.value,tags.value)" class="btn btn-success">Update News</button>
     <br>
 

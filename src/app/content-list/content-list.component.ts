@@ -11,12 +11,7 @@ export class ContentListComponent implements OnInit {
   contentList: Content[] = [];
   constructor(private contentService: ContentService) { }
 
-  searchTitle(search:String):void{
-    let exist = this.contentList.find(content => content.title.toLowerCase() == search.toLowerCase());
-    alert(exist ? `${search} exist!` : `${search} does not exist!`);
-  }
-
-  ngOnInit(): void {}
+  ngOnInit(): void {this.getContentList();}
 
 
   addContentToList(newContentFromChild: Content): void {
@@ -35,6 +30,6 @@ export class ContentListComponent implements OnInit {
       this.contentList = content;
     });
 
-    this.getContentList();
+
   }
 }

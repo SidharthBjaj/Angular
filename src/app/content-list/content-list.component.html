@@ -1,20 +1,11 @@
-<form onSubmit="return false"></form>
 <app-create-content
 (newContentEvent)="addContentToList($event)"
-(updateContentEvent)="updateContentInList($event)"></app-create-content>
-<div class="search">
-    <input #search placeholder="Search">
-    <button (click)="searchTitle(search.value)">Search</button>
-</div>
+(updateContentEvent)="updateContentInList($event)">
 
-<app-content-card *ngFor="let content of (contentList | pipe:'school'); "
-                  [content]="content"
-                  class="content-card {{content.type}}" >
-                  {{ content }}
-</app-content-card>
+</app-create-content>
 
 
-<app-content-card *ngFor="let content of (contentList | pipe:'windsor'); "
+<app-content-card *ngFor="let content of (contentList); "
                   [content]="content"
                   class="content-card {{content.type}}" >
                   {{ content }}

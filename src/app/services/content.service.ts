@@ -31,7 +31,7 @@ export class ContentService {
       return this.http.get<Content[]>('api/content');
   }
     addNewContent(content: Content ): Observable<Content> {
-        this.messageService.add(`Content added:  ${content.title}`);
+        this.messageService.add(`New Content added:  ${content.title}`);
         return this.http.post<Content>('api/content', content, this.httpOptions);
     }
     updateContent(content: Content): Observable<Content> {
