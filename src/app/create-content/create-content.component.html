@@ -1,0 +1,30 @@
+<div class="form">
+    <h1>Add Information Here</h1>
+    <div class="form-group">
+        <input #title class="form-control" id="title" name="title" placeholder="*Please enter title here" required />
+    </div>
+    <div class="form-group">
+        <input #body class="form-control" id="body" name="body" placeholder="*Please enter body here" required />
+    </div>
+    <div class="form-group">
+        <input #author class="form-control" id="author" name="author" placeholder="*Please enter author here" required />
+    </div>
+    <div class="form-group">
+        <input #imgUrl class="form-control" id="imgUrl" name="imgUrl" placeholder="Enter image URL"  />
+    </div>
+    <div class="form-group">
+        <input #type class="form-control" id="type" name="type" placeholder="Enter type"  />
+    </div>
+    <div class="form-group">
+        <input #tags class="form-control" id="tags" name="tags" placeholder="Enter tags"  />
+    </div>
+
+    <div (click)="AddNews(title.value,body.value,author.value)"
+         class="btn btn-success">Add News</div>
+    <button (click)="onUpdateValue(title.value,body.value,author.value,imgUrl.value,type.value,tags.value)" class="btn btn-success">Update News</button>
+    <br>
+
+    <div *ngIf="error" class="alert alert-danger" role="alert">
+        <p>{{error}}</p>
+    </div>
+</div>

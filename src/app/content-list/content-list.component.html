@@ -1,3 +1,7 @@
+<form onSubmit="return false"></form>
+<app-create-content
+(newContentEvent)="addContentToList($event)"
+(updateContentEvent)="updateContentInList($event)"></app-create-content>
 <div class="search">
     <input #search placeholder="Search">
     <button (click)="searchTitle(search.value)">Search</button>
