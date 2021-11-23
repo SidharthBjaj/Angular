@@ -1,8 +1,8 @@
 :host {
-    width: 60%;
+    width: 80%;
     display: block;
     margin: 20px auto;
 }
 .message {
-    background-color: greenyellow;
+    background-color: cadetblue;
 }

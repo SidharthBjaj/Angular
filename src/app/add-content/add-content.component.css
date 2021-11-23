@@ -1,0 +1,39 @@
+mat-form-field {
+    padding: 0 20px;
+}
+div.form {
+    width: 80%;
+    background-color: darkcyan;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    align-content: center;
+}
+mat-form-field {
+    width: 90%;
+    background-color: cadetblue;
+}
+div.form-group {
+    padding: 5px;
+    width: 60%;
+    margin: 0 auto;
+}
+input {
+    width: 50%;
+    font-size: 18px;
+    padding: 4px;
+    margin: 10px;
+}
+.mat-input {
+    background-color: lightcyan;
+    width: 90%;
+    margin-top: 20px;
+}
+.mat-raised-button{
+    display: block;
+    text-align: center;
+    margin: 15px 200px;
+    width: 120px;
+}
+
+

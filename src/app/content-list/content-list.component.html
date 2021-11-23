@@ -1,9 +1,9 @@
+
+<mat-divider></mat-divider>
+
 <app-create-content
-(newContentEvent)="addContentToList($event)"
-(updateContentEvent)="updateContentInList($event)">
-
+(newContentEvent)="addContentToList($event)">
 </app-create-content>
-
 
 <app-content-card *ngFor="let content of (contentList); "
                   [content]="content"

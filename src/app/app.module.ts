@@ -12,6 +12,15 @@ import {HttpClientModule} from "@angular/common/http";
 import {HttpClientInMemoryWebApiModule} from "angular-in-memory-web-api";
 import {InMemoryDataService} from "./services/in-memory-data.service";
 import { CreateContentComponent } from './create-content/create-content.component';
+import { AddContentComponent } from './add-content/add-content.component';
+
+
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {MatButtonModule} from "@angular/material/button";
+import {MatInputModule} from "@angular/material/input";
+import {MatDividerModule} from "@angular/material/divider";
+import {MatDialogModule} from "@angular/material/dialog";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -21,7 +30,8 @@ import { CreateContentComponent } from './create-content/create-content.componen
     PipePipe,
     HoverStyleDirective,
     MessagesComponent,
-    CreateContentComponent
+    CreateContentComponent,
+    AddContentComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +40,13 @@ import { CreateContentComponent } from './create-content/create-content.componen
       dataEncapsulation: false,
       delay: 1000,
     }),
+    // BrowserAnimationsModule,
+    MatButtonModule,
+    MatInputModule,
+    MatDialogModule,
+    MatDividerModule,
+    FormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,10 +3,8 @@ div.form {
     margin: 0 auto;
     display: inline-block;
 }
-.btn-success{
-    margin: 10px;
-    width: 50%;
-    text-align: center;
-    color: black;
-    background-color: dodgerblue;
+.mat-flat-button{
+    margin : 10px 600px;
+    background-color: cadetblue;
+    width: 200px;
 }

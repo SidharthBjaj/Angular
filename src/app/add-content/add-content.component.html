@@ -1,0 +1,40 @@
+<!--suppress ALL -->
+<div class="form">
+    <h1 mat-dialog-title>Add New Content</h1>
+    <div class="mat-form">
+
+        <mat-form-field>
+            <mat-label>Title</mat-label>
+            <input class="mat-input" matInput [(ngModel)]="newContent.title" placeholder="Enter title here" />
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Author</mat-label>
+            <input class="mat-input" matInput [(ngModel)]="newContent.author" placeholder="Enter author here" />
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Body</mat-label>
+            <input class="mat-input" matInput [(ngModel)]="newContent.body" placeholder="Enter body content here" />
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Type</mat-label>
+            <input class="mat-input" matInput [(ngModel)]="newContent.type" placeholder="Enter types here " />
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Image URL</mat-label>
+            <input class="mat-input" matInput [(ngModel)]="newContent.imgUrl" placeholder="Enter image url here" />
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Tags</mat-label>
+            <input class="mat-input" matInput [(ngModel)]="newContent.tags" placeholder="Enter tags here" />
+        </mat-form-field>
+        <div mat-dialog-actions>
+            <button mat-raised-button color="warn"(click)="onNoClick()" >Cancel</button>
+            <button mat-raised-button color="accent" [mat-dialog-close]="newContent" class="mr-2">Add Content</button>
+        </div>
+    </div>
+</div>
