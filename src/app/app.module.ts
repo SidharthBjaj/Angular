@@ -22,6 +22,11 @@ import {MatDividerModule} from "@angular/material/divider";
 import {MatDialogModule} from "@angular/material/dialog";
 import {FormsModule} from "@angular/forms";
 
+import { ContentDetailComponent } from './content-detail/content-detail.component';
+import { NotFountComponent } from './not-fount/not-fount.component';
+import {RouterModule} from "@angular/router";
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +36,9 @@ import {FormsModule} from "@angular/forms";
     HoverStyleDirective,
     MessagesComponent,
     CreateContentComponent,
-    AddContentComponent
+    AddContentComponent,
+    ContentDetailComponent,
+    NotFountComponent
   ],
   imports: [
     BrowserModule,
@@ -40,13 +47,18 @@ import {FormsModule} from "@angular/forms";
       dataEncapsulation: false,
       delay: 1000,
     }),
-    // BrowserAnimationsModule,
+    BrowserAnimationsModule,
     MatButtonModule,
     MatInputModule,
     MatDialogModule,
     MatDividerModule,
     FormsModule,
     BrowserAnimationsModule,
+    RouterModule.forRoot([
+      { path: 'content/:id', component: ContentDetailComponent },
+      { path: 'content', component: ContentListComponent },
+      { path: '**', component: NotFountComponent }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

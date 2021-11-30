@@ -55,7 +55,8 @@ export class CreateContentComponent implements OnInit {
   }
   openAddNewsDialog() {
     const newsDialog = this.dialog.open(AddContentComponent, {
-      width: '1600px',
+      width: '700px',
+      height: '800px',
     });
     newsDialog.afterClosed().subscribe((newsFromDialog) => {
       console.log(newsFromDialog);

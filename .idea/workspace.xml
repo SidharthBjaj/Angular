@@ -20,103 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aeec2b-d6c5-42c6-b871-d119e9283bda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/add-content/add-content.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/add-content/add-content.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/add-content/add-content.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/add-content/add-content.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/content-detail/content-detail.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/content-detail/content-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/content-detail/content-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/content-detail/content-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-fount/not-fount.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-fount/not-fount.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-fount/not-fount.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-fount/not-fount.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/animations/animations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/animations/animations.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/animations/browser/browser.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/animations/browser/browser.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/animations/browser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/animations/browser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/animations/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/animations/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/forms/forms.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/forms.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/forms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/animations/animations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/animations/animations.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/animations/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/animations/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/__ngcc_entry_points__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/backend.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/backend.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/delay-response.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/delay-response.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/http-client-backend.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/http-client-backend.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/http-client-backend.service.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/http-client-backend.service.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/http-client-in-memory-web-api.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/http-client-in-memory-web-api.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/http-client-in-memory-web-api.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/http-client-in-memory-web-api.module.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/http-status-codes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/http-status-codes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/in-memory-web-api.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/in-memory-web-api.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/in-memory-web-api.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/in-memory-web-api.module.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/interfaces.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/interfaces.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/interfaces.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/__ivy_ngcc__/interfaces.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/backend.service.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/backend.service.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/backend.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/backend.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/bundles/in-memory-web-api.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/bundles/in-memory-web-api.umd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/delay-response.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/delay-response.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/delay-response.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/delay-response.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-backend.service.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-backend.service.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-backend.service.d.ts.__ivy_ngcc_bak" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-backend.service.d.ts.__ivy_ngcc_bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-backend.service.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-backend.service.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-backend.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-backend.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.d.ts.__ivy_ngcc_bak" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.d.ts.__ivy_ngcc_bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.ngfactory.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.ngfactory.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.ngfactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-client-in-memory-web-api.module.ngfactory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-status-codes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-status-codes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-status-codes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/http-status-codes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.d.ts.__ivy_ngcc_bak" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.d.ts.__ivy_ngcc_bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.ngfactory.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.ngfactory.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.ngfactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/in-memory-web-api.module.ngfactory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/index.d.ts.__ivy_ngcc_bak" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/index.d.ts.__ivy_ngcc_bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/index.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/index.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/interfaces.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/interfaces.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/interfaces.d.ts.__ivy_ngcc_bak" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/interfaces.d.ts.__ivy_ngcc_bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/interfaces.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/interfaces.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/interfaces.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/interfaces.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/angular-in-memory-web-api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/wide-align/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/wide-align/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/align.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/wide-align/align.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/ansi-regex/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/ansi-regex/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/ansi-regex/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/ansi-regex/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/is-fullwidth-code-point/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/string-width/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/string-width/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/string-width/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/string-width/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/strip-ansi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/strip-ansi/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/strip-ansi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/node_modules/strip-ansi/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wide-align/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/wide-align/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/router/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/router/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@angular/router/router.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@angular/router/router.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/add-content/add-content.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/add-content/add-content.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-card/content-card.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/content-list/content-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/create-content/create-content.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/create-content/create-content.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/create-content/create-content.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/create-content/create-content.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/create-content/create-content.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/create-content/create-content.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/hover-style.directive.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/hover-style.directive.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/messages/messages.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/messages/messages.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/content.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/content.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +108,7 @@
       <workItem from="1637089556963" duration="75000" />
       <workItem from="1637089684598" duration="5999000" />
       <workItem from="1637638391283" duration="5618000" />
+      <workItem from="1638246701862" duration="4373000" />
     </task>
     <servers />
   </component>

@@ -20,11 +20,6 @@ export class ContentListComponent implements OnInit {
     this.contentList = Object.assign([], this.contentList);
   }
 
-  updateContentInList(response: string) {
-    console.log(response);
-    this.getContentList();
-  }
-
   getContentList(){
     this.contentService.getContentsObs().subscribe((content) => {
       this.contentList = content;

@@ -24,7 +24,9 @@ export class ContentService {
   getContents(): Content[] {
   return CONTENT_LIST;
 }
-
+    getContent(id: number) : Observable<Content> {
+        return this.http.get<Content>('api/content/' + id);
+    }
   getContentsObs(): Observable<Content[]> {
    this.messageService.add('Content retrieved');
    // return of(CONTENT_LIST);

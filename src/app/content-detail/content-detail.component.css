@@ -1,0 +1,32 @@
+:host {
+    display: block;
+    background-color: cadetblue;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+.tags {
+    font-size: 24px;
+}
+.type{
+    font-size: 24px;
+}
+.content-image {
+    width: 50%;
+}
+p {
+    font-size: 24px;
+}
+article {
+    padding: 20px 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+a,
+a:active,
+a:hover {
+    text-decoration: none;
+}

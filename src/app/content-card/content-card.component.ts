@@ -12,8 +12,5 @@ export class ContentCardComponent implements OnInit {
 
   constructor() {}
 
-  onImageClick(id: number) {
-    console.log(`Image clicked: ${id}`);
-  }
   ngOnInit(): void {}
 }

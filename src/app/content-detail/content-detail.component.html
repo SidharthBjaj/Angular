@@ -1,0 +1,22 @@
+<!--<p>content-detail works!</p>-->
+
+<article class="content-{{ content.id }}">
+    <h1 appHoverStyle [borderColor]="'blue'" class="title">{{ content.title }}</h1>
+    <p class="author">Author:   {{ content.author }}</p>
+    <section>
+        <div>
+            <img *ngIf="content.imgUrl; else imageNotFound" src="{{ content.imgUrl }}" (click)="onImageClick(content.id)" class="content-image" />
+            <ng-template #imageNotFound>
+                <img src="https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_960_720.jpg" (click)="onImageClick(content.id)" class="content-image" />
+            </ng-template>
+        </div>
+    </section>
+    <section>
+        <p class="body" *ngIf="content.body">Body:   {{ content.body }}</p>
+        <p class="type" *ngIf="content.type">Type:   {{ content.type }}</p>
+        <p class="tags" *ngIf="content.tags">Tags:   {{content.tags}}</p>
+
+
+    </section>
+    <a mat-raised-button color="black" routerLink="/content" routerLinkActive="active">Back To News</a>
+</article>
