@@ -25,8 +25,12 @@ import {FormsModule} from "@angular/forms";
 import { ContentDetailComponent } from './content-detail/content-detail.component';
 import { NotFountComponent } from './not-fount/not-fount.component';
 import {RouterModule} from "@angular/router";
+import {MatSnackBarModule} from "@angular/material/snack-bar";
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+
+
+
 
 
 @NgModule({
@@ -55,6 +59,7 @@ import { environment } from '../environments/environment';
     MatDialogModule,
     MatDividerModule,
     FormsModule,
+      MatSnackBarModule,
     BrowserAnimationsModule,
     RouterModule.forRoot([
       { path: 'content/:id', component: ContentDetailComponent },

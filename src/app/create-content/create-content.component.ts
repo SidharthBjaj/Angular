@@ -6,6 +6,7 @@ import {MAT_DIALOG_DATA,
   MatDialog,
   MatDialogRef,} from "@angular/material/dialog";
 import { AddContentComponent } from '../add-content/add-content.component';
+import {MatSnackBar} from "@angular/material/snack-bar";
 
 
 @Component({
@@ -24,7 +25,8 @@ export class CreateContentComponent implements OnInit {
 
   constructor(
       private contentService: ContentService,
-      public dialog: MatDialog
+      public dialog: MatDialog,
+  private snackBar: MatSnackBar
   ) {
   }
 
@@ -37,6 +39,7 @@ export class CreateContentComponent implements OnInit {
         this.newContent.title &&
         this.newContent.author
     ) {
+      this.snackBar.open('News has been added!');
       this.error = undefined;
       this.contentService
           .addNewContent(this.newContent)
@@ -44,6 +47,7 @@ export class CreateContentComponent implements OnInit {
             this.newContent = serverContent;
             this.newContentEvent.emit(this.newContent);
             console.log(this.newContent.title);
+            this.snackBar.open('News has been added!');
           });
     } else {
       this.error = `You need to add all required fields: ${
