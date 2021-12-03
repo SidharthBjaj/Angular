@@ -25,6 +25,8 @@ import {FormsModule} from "@angular/forms";
 import { ContentDetailComponent } from './content-detail/content-detail.component';
 import { NotFountComponent } from './not-fount/not-fount.component';
 import {RouterModule} from "@angular/router";
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -58,7 +60,13 @@ import {RouterModule} from "@angular/router";
       { path: 'content/:id', component: ContentDetailComponent },
       { path: 'content', component: ContentListComponent },
       { path: '**', component: NotFountComponent }
-    ])
+    ]),
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the app is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
